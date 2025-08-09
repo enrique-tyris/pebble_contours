@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ML specific
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+runs/
+weights/
+
+# Dataset and large files
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.webm
+*.webp
+
+# Exception - keep model files
+!models/pebble_seg_model.pt
+
+# Logs
+*.log
+*.txt
+*.pdf
+*.docx
+*.doc
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.csv
+*.json
+*.yaml
+*.pem
+!requirements.txt

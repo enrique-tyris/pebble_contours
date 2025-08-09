@@ -1,0 +1,9 @@
+ultralytics==8.3.74
+numpy==1.26.4
+opencv-python==4.11.0.86
+torch==2.6.0
+torchvision==0.21.0
+gradio==5.35.0
+Pillow==10.4.0
+matplotlib==3.10.3
+supervision==0.25.1
