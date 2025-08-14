@@ -1,9 +1,5 @@
 # Pebble Contours
 
-Author: Enrique García Iglesias  
-Version: 1  
-Date: 14/08/2025
-
 A contour segmentation tool for pebbles using YOLO-based AI segmentation. Includes an interactive Gradio web UI and batch-processing mode.
 
 ## Table of Contents
