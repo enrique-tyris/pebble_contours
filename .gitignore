@@ -50,6 +50,7 @@ weights/
 *.png
 *.webm
 *.webp
+!data/docs/gradio_example.png
 
 # Exception - keep model files
 !models/pebble_seg_model.pt
