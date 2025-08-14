@@ -27,7 +27,6 @@ def procesar_carpeta(input_folder, output_folder, confidence=0.5, area_factor=0.
     # Ruta al modelo entrenado (misma que en gradio_server.py)
     MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'models', 'pebble_seg_model.pt')
     model = YOLO(MODEL_PATH)
-    model.to('cpu')
     
     # Crear carpetas de salida si no existen
     output_images_folder = os.path.join(output_folder, 'images')

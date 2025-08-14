@@ -11,7 +11,6 @@ import os
 # Ruta a tu modelo entrenado
 MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'models', 'pebble_seg_model.pt')
 model = YOLO(MODEL_PATH)
-model.to('cpu')
 
 # Variable global para almacenar las coordenadas y polígonos
 coordenadas_actuales = []
