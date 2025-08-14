@@ -2,6 +2,8 @@
 
 A contour segmentation tool for pebbles using YOLO-based AI segmentation. Includes an interactive Gradio web UI and batch-processing mode.
 
+![Gradio Interface](data/docs/gradio_example.png)
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -64,10 +66,6 @@ Features:
   - Mask_ID
   - Centroid_X / Centroid_Y
   - Polygon_Coordinates
-
-### Example Interface
-
-![Gradio Interface](data/docs/gradio_example.png)
 
 ### Batch Inference
 
